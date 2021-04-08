@@ -6,7 +6,7 @@ const axios = require('axios')
  * to customize this model
  */
 
-module.exports = {
+/**module.exports = {
   lifecycles: {
     async afterCreate(result, data) {
       axios.post('https://api.netlify.com/build_hooks/606e38a76ac8c55d87946db4')
@@ -18,4 +18,4 @@ module.exports = {
       axios.post('https://api.netlify.com/build_hooks/606e38a76ac8c55d87946db4')
     }
   }
-};
+};*/
